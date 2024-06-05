@@ -90,6 +90,11 @@ p{
     justify-content: space-between;
 }
 
+.titke-company {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
 .left-header{
     display: flex;
     justify-content: center;
