@@ -18,4 +18,9 @@ export const products = [{
     image: 'product-image/nike-shirt-fit.jpeg',
     name: 'Nike t-shirt fit black',
     price: 150.00
+} , {
+    id: 'qwerty5',
+    image: 'product-image/nike-go-flyease.jpeg',
+    name: 'Nike Go Flyease',
+    price: 350.00
 }];
