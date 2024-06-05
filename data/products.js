@@ -13,4 +13,9 @@ export const products = [{
     image: 'product-image/nike-evolution-3.jpg',
     name: 'Nike Evolution 3',
     price: 250.00
+} , {
+    id: 'qwerty4',
+    image: 'product-image/nike-shirt-fit.jpeg',
+    name: 'Nike t-shirt fit black',
+    price: 150.00
 }];
