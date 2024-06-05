@@ -28,9 +28,4 @@ export const products = [{
     image: 'product-image/nike-go-flyease.jpeg',
     name: 'Nike Go Flyease v2',
     price: 360.00
-} , {
-    id: 'qwerty7',
-    image: 'product-image/addidas-shoes.jpg',
-    name: 'Nike Go Flyease v7',
-    price: 340.00
 }];
