@@ -1,0 +1,135 @@
+
+
+body{
+    font-family: Arial;
+    padding-top: 120px;
+    padding-right: 60px;
+    padding-left: 60px;
+
+}
+
+p{
+    margin: 0;
+}
+
+.body{
+    display: grid;
+    grid-template-columns: 733px 1fr;
+    column-gap: 10px;
+    position: relative;
+}
+
+.header{
+    background-color: rgb(255, 124, 77);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    z-index: 100;
+}
+
+.title-company {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.left-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 12px;
+}
+
+.logo-header{
+    height: 70px;
+    background-color: rgb(255, 199, 131);
+    border-radius: 35px;
+}
+
+.middle-header{
+    display: flex;
+    align-items: center;
+    width: 185px;
+}
+
+.right-header{
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    width: 165px;
+}
+
+
+.cart-container{
+    position: relative;
+}
+
+
+/* cart container */
+.cart-item-container{
+    width: 720px;
+    height: 280px;
+    padding-top: 20px;
+    padding-left: 12px;
+    border: 1px solid rgb(255, 124, 77);
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.cart-date{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.cart-item{
+    width: 750px;
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    column-gap: 15px;
+}
+.cart-image{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+}
+
+.cart-item-price{
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.cart-date-picker-container{
+    padding-top: 10px;
+}
+
+.cart-date-picker{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+    margin-bottom: 20px;
+}
+.cart-radio{
+    display: flex;
+    align-items: center;
+}
+
+.cart-date-picker-date{
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+.cart-total-container{
+    border: 1px solid rgb(255, 124, 77);
+    height: 350px;
+    position: sticky;
+    top: 85px;
+    border-radius: 10px;
+}
