@@ -14,7 +14,7 @@ p{
 
 .body{
     display: grid;
-    grid-template-columns: 733px 1fr;
+    grid-template-columns: 665px 1fr;
     column-gap: 10px;
     position: relative;
 }
@@ -87,7 +87,6 @@ p{
 }
 
 .cart-item{
-    width: 750px;
     display: grid;
     grid-template-columns: 120px 1fr 1fr;
     column-gap: 15px;
@@ -132,4 +131,13 @@ p{
     position: sticky;
     top: 85px;
     border-radius: 10px;
+    min-width: 320px;
+    max-width: 420px;
+}
+
+@media (max-width: 1100px) {
+    .body{
+        grid-template-columns: 1fr;
+        grid-column-end: 2;
+    }
 }
