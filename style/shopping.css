@@ -151,3 +151,8 @@ p{
     display: grid;
     justify-content: center;
 }
+
+.cart-count{
+    pointer-events: none;
+    columns: black;
+}
